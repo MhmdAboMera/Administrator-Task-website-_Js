@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor</title>
+    <link rel="stylesheet" href="../mainDoctor/css/all.min.css">
+    <link rel="stylesheet" href="../mainDoctor/css/master.css">
+    <link rel="stylesheet" href="../mainDoctor/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- start seting box -->
+     <div class="seting-box">
+        <div class="main">
+            <i class="fa fa-gear"></i>
+        </div>
+        <div class="seting-container">
+           <div class="control">
+                <div class="option-box addingtodoctor " data-cont=".adding-doctor">
+                    <h4>Adding Doctor</h4>
+                </div>
+                <div class="option-box aboutcontroldoctor " data-cont=".about-doctor">
+                    <h4>About Doctor</h4>
+                </div>
+           </div>
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="color-list">
+                    <li class="active" data-color="#ffc107"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9f4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <button class="rest-option">Rest Options</button>
+        </div>
+    </div>
+    <!-- end seting box -->
+    <div class="all-contant">
+            <!-- start lainding page  -->
+    <div class="landing-page">
+        <div class="overley"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Academy</div>
+                <ul class="links">
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a href="../adminStudent/student.html">Subject</a></li>
+                    <li><a href="../mainDoctor/mainDoctor.html" >Doctor</a></li>
+                    <li><a href="../adminStudentmain/mainStudent.html" >Student</a></li>
+                    <li><a href="../adminDepartment/department.html" >Department</a></li>
+                </ul>
+                <button class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div class="intro-text">
+            <h1>Welcome To The <span>Academy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla temporibus modi unde, eos ullam aspernatur.</p>
+        </div>
+    </div>
+    <!-- end lainding page  -->
+        <!-- start adding doctor  -->
+        <div class="adding-doctor">
+            <div class="subject" >
+                <div class="container">
+                    <h2>Add an account to the Doctor</h2>
+                    <form action="" id="my-form">
+                        <input type="text" placeholder="User Name" name="userName" class="subjectName">
+                        <input type="number" placeholder="Doctor Id" name="academicNumber" class="subjectId">
+                        <input type="password" placeholder="Password" name="password" class="subjectDepartment">
+                        <input type="submit" value="Add" class="submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="subject-contant">
+                <div class="container">
+                    <h2>All Doctors</h2>
+                    <div class="subject-info"> 
+                        <span>User Name :</span>
+                        <span>Doctor Id :</span>
+                        <span>Password :</span>
+                        <span class="dellet">Delete</span>
+                    </div>
+                    <div class="contant">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end adding doctor  -->
+        <!-- start about doctor  -->
+        <div class="about-doctor">
+            <div class="subject">
+            <div class="container">
+                <h2>Doctor Control</h2>
+                <form action="" id="myForm">
+                    <input type="text" placeholder="Subject Name" name="subjectName" class="subject-name">
+                    <input type="number" placeholder="Doctor Id" name="doctorId" class="doctor-Id">
+                    <input type="submit" value="Save" class="save">
+                </form>
+            </div>
+            </div>
+        
+            <div class="subject-contant">
+                <div class="container">
+                    <h2>Controls</h2>
+                    <div class="subject-info"> 
+                        <span>Subject Name :</span>
+                        <span>Doctor Id :</span>
+                        <span class="dellet">Delete</span>
+                    </div>
+                    <div class="contant-info">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end about doctor  -->
+    </div>
+        <!-- start footer  -->
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <h2>Academy</h2>
+                    <ul class="social">
+                        <li>
+                            <a href="#" class="facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
+                </div>
+                <div class="box">
+                    <div class="line">
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        <div class="info">Egypt, shipen, Inside The Sphinx</div>
+                    </div>
+                    <div class="line">
+                        <i class="far fa-clock fa-fw"></i>
+                        <div class="info">Business Hours: From 10:00 To 18:00</div>
+                    </div>
+                    <div class="line">
+                        <i class="fas fa-phone-volume fa-fw"></i>
+                        <div class="info">
+                           <span> +20123456789</span>
+                           <span> +20198765432</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                Made By Abo Mera 
+            </p>
+        </div>
+        <!-- end footer  -->
+    <script src="../mainDoctor/js/control.js"></script>
+    <script src="../mainDoctor/js/mainDoctor.js"></script>
+    <script src="../mainDoctor/js/doctor.js"></script>
+    
+</body>
+</html>

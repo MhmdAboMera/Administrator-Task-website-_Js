@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>department</title>
+    <link rel="stylesheet" href="department.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- start lainding page  -->
+     <div class="landing-page">
+        <div class="overley"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Academy</div>
+                <ul class="links">
+                    <li><a class="active" href="../index.html">Home</a></li>
+                    <li><a href="../adminStudent/student.html">Subject</a></li>
+                    <li><a href="../mainDoctor/mainDoctor.html" >Doctor</a></li>
+                    <li><a href="../adminStudentmain/mainStudent.html" >Student</a></li>
+                    <li><a href="../adminDepartment/department.html" >Department</a></li>
+                </ul>
+                <button class="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- end lainding page  -->
+        <!-- start add subject  -->
+    <div class="subject">
+        <div class="container">
+            <h2>Add Department</h2>
+            <form action="" id="my-form">
+               <div class="right">
+                <input type="text" placeholder="Department Name" name="departmentName" class="subjectName">
+                <input type="number" placeholder="Department Code" name="departmentCode" class="subjectId">
+               </div>
+                <input type="submit" value="Add" class="submit">
+            </form>
+        </div>
+    </div>
+    <!-- end add subject  -->
+    <!-- start adding subject -->
+    
+    <div class="subject-contant">
+        <div class="container">
+            <h2>Available Departments</h2>
+            <div class="subject-info"> 
+                <span>Department Name :</span>
+                <span>Department Code :</span>
+                <span class="dellet">Delete</span>
+            </div>
+            <div class="contant">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- End adding subject -->
+    <script src="../adminDepartment/department.js"></script>
+</body>
+</html>
